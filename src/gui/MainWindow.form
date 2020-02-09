@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="gui.MainWindow">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <enabled value="true"/>
+      <preferredSize width="600" height="400"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <toolbar id="8690f">
+        <constraints border-constraint="South"/>
+        <properties>
+          <floatable value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="9f4c9" class="javax.swing.JLabel" binding="status">
+            <constraints/>
+            <properties>
+              <foreground color="-14273992"/>
+              <text value="Initializing"/>
+            </properties>
+          </component>
+          <component id="1dfa4" class="javax.swing.JToolBar$Separator">
+            <constraints/>
+            <properties/>
+          </component>
+          <component id="599" class="javax.swing.JProgressBar" binding="progressBar1" default-binding="true">
+            <constraints/>
+            <properties>
+              <value value="0"/>
+            </properties>
+          </component>
+          <component id="3fee4" class="javax.swing.JToolBar$Separator">
+            <constraints/>
+            <properties/>
+          </component>
+          <component id="36e78" class="javax.swing.JButton" binding="patchButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <enabled value="false"/>
+              <text value="Launch"/>
+            </properties>
+          </component>
+        </children>
+      </toolbar>
+      <tabbedpane id="31e4b" binding="tabbedPane1" default-binding="true">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="852ed" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <tabbedpane title="Home"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <toolbar id="3ee43" binding="toolBar1">
+                <constraints border-constraint="North"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="792d5" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+                    <constraints/>
+                    <properties/>
+                  </component>
+                  <component id="e8fc7" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+                    <constraints/>
+                    <properties>
+                      <horizontalAlignment value="2"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                </children>
+              </toolbar>
+            </children>
+          </grid>
+          <grid id="14678" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <tabbedpane title="Mods"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="f00c4" class="javax.swing.JTextArea" binding="moddingNotSupportedYetTextArea" default-binding="true">
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <text value="Modding not supported yet"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </tabbedpane>
+    </children>
+  </grid>
+</form>

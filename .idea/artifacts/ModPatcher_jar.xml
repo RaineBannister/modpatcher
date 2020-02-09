@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ModPatcher:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ModPatcher_jar</output-path>
+    <root id="archive" name="ModPatcher.jar">
+      <element id="module-output" name="ModPatcher" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/json-20180813.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/material-ui-swing-0.9.9-jar-with-dependencies.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="json-20180813">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/json-20180813.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/material-ui-swing-0.9.9-jar-with-dependencies.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Downloads/material-ui-swing-0.9.9-jar-with-dependencies.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/material-ui-swing-0.9.9-jar-with-dependencies.jar!/main/java" />
+    </SOURCES>
+  </library>
+</component>
